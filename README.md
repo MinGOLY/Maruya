@@ -1,1 +1,1 @@
-# Maruya.github.io
+# Maruya
