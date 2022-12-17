@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --main-color:#EAC275;
+    --main-dark-color:#A08249;
+    --sub-color:#5CA7DE;
+    --gray-color:#ADADAD;
+    --text-dark-color:#181818;
+    --text-gray-color:#767676;
+    --icon-color:#000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'GangwonEdu_OTFBoldA', sans-serif;
+}
+h1{
+    line-height: 48px;
+    color: var(--text-dark-color);
+}
+h2{
+    line-height: 36px;
+    color: var(--text-dark-color);
+}
+h3{
+    line-height: 24px;
+    color: var(--text-gray-color);
+}
+p{
+    line-height: 20px;
+    color: var(--text-gray-color);
+}
+
+header{
+    width: 1180px;
+    margin: 0 auto;
+}
+header .top{
+    display: flex;
+    justify-content: space-between;
+}
+.top img{
+    margin-top: 80px;
+    margin-right: 6px;
+}
+header .blank{
+    width: 24px;
+    height: 24px;
+}
+.top h1{
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'SF_HambakSnow', sans-serif;
+    line-height: 80px;
+    color: var(--main-color);
+    margin: 24px 0;
+}
+header a{
+    text-decoration: none;
+}
+
+header img{
+    width: 24px;
+    margin-right: 4px;
+}
+
+hr{
+    width: 1180px;
+    height: 2px;
+    background-color: var(--main-dark-color);
+    border: 0;
+    margin: 0 auto;
+}
+
+header .bottom{
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 64px;
+    font-size: 18px;
+}
+.bottom ul{
+    width: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.bottom a{
+    color: var(--text-dark-color);
+}
+.bottom ul img{ 
+    width: 12px;
+    height: 32px;
+    margin: auto 0;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 200px;
+    height: 200px;
+    color: white;
+    background-color: var(--text-dark-color);
+}
+footer .container{
+    width: 1180px;
+    padding: 20px 0 10px 0;
+    margin: 0 auto;
+}   
+.footA{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footA h3{
+    color: white;
+    margin-top: 0;
+    border-bottom: solid 1px white;
+    font-size: 14px;
+}
+.footA ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+.footA a{
+    display: block;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footA a:hover{
+    background-color: var(--text-gray-color);
+}
+
+.footB{
+    text-align: center;
+    margin-top: 20px;
+}
